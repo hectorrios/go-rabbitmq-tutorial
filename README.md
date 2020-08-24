@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=pAXp6o-zWS4&list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJ
 The Docker command to start up the RabbitMQ container is:
 > docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
+To access the RabbitMQ management console, go to http://localhost:15672 on the host machine.
+
 ## Message Producer
 
 To run the message producer, execute the following:
